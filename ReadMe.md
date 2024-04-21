@@ -35,3 +35,18 @@ TODO for /api/supervisors:
 
 	DONE!
 	Get rid of default Weather Forcast stuff.
+
+# GET /api/Submit
+	DONE!
+	1.  Create enpoint that takes JSON
+
+	DONE!
+	2.  Create SupervisorNotification class that handles input
+		public string FirstName - Required, OnlyAlphabetic
+		public string LastName - Required, OnlyAlphabetic
+		public string Email - optional, but must be standard email if not null
+		public string PhoneNumber - optional, but must be standard phone if not null
+		public string Supervisor - Required
+
+	DONE!
+	3.  Ensure all data validation is in place

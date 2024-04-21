@@ -17,7 +17,7 @@ namespace LightF_API.Helpers
 
                 if (!IsValidEmail(stringValue))
                 {
-                    return new ValidationResult(ErrorMessage ?? "Invalid email...");
+                    return new ValidationResult(ErrorMessage ?? "Invalid email.");
                 }
             }
             return ValidationResult.Success;
